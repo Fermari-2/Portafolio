@@ -1,0 +1,80 @@
+body{
+    background-image: url(./Img/Imagen\ de\ fondo\ 1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: #E1E2E1;
+    min-height: 100%;
+    
+}
+
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ajuste{
+    
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.imagen{
+    margin-right: 50px;
+}
+
+.educacion{
+    margin-left: 100px;
+}
+
+.licencias{
+    margin-left: 100px;
+}
+.formacion{
+    display: flex;
+   
+}
+.habilidades{
+    margin-left: 250px;
+}
+.experiencia{
+    margin-left: 500px;
+}
+
+.conocimiento{
+    display: flex;
+    
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    padding: 0 15px;
+    background: white;
+    border-top: 1px solid black;
+  }
+  .redes{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .redes a{
+    font-size: 50px;
+  }
+  .video{
+    display: flex;
+    justify-content: center;
+  }
